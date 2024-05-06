@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task Details</title>
+</head>
+<body>
+    <h1>Task Details</h1>
+    <p>Task ID: 12345</p> <!-- Hardcoded task ID, you can replace it with dynamic content -->
+
+    <form action="/task-details" method="post">
+        <label for="action">Select Action:</label>
+        <select id="action" name="action">
+            <option value="markDone">Mark as Done</option>
+            <option value="delete">Delete Task</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

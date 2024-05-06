@@ -1,0 +1,24 @@
+Instructions:
+
+Project Setup:
+1-Create a new directory for your project.
+2-Initialize a new Node.js project using npm init.
+3-Install the necessary dependencies (express and nodemon) using npm.
+
+Server Configuration:
+1-Import the required modules (express, path, body-parser).
+2-Initialize Express and create an instance of the app.
+
+Static File Serving:
+1-Serve static files (CSS, JavaScript) from a directory named 'public'.
+2-Parsing Request Bodies:
+3-Parse URL-encoded bodies sent by HTML forms using body-parser.
+
+Creating Routes:
+1-Define routes to serve HTML pages for task listing and task details.
+
+Form Submission Handling:
+1-Handle form submissions for both HTML pages.
+
+Start the Server:
+1-Set up the server to listen on a port (default 3000).
